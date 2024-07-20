@@ -1,0 +1,8 @@
+C:\Users\silen\source\repos\Delmonting CrowdStrike\bin\Release\Delmonting CrowdStrike.exe.config
+C:\Users\silen\source\repos\Delmonting CrowdStrike\bin\Release\Delmonting CrowdStrike.exe
+C:\Users\silen\source\repos\Delmonting CrowdStrike\bin\Release\Delmonting CrowdStrike.pdb
+C:\Users\silen\source\repos\Delmonting CrowdStrike\obj\Release\Delmonting CrowdStrike.csproj.AssemblyReference.cache
+C:\Users\silen\source\repos\Delmonting CrowdStrike\obj\Release\Delmonting CrowdStrike.csproj.SuggestedBindingRedirects.cache
+C:\Users\silen\source\repos\Delmonting CrowdStrike\obj\Release\Delmonting CrowdStrike.csproj.CoreCompileInputs.cache
+C:\Users\silen\source\repos\Delmonting CrowdStrike\obj\Release\Delmonting CrowdStrike.exe
+C:\Users\silen\source\repos\Delmonting CrowdStrike\obj\Release\Delmonting CrowdStrike.pdb
