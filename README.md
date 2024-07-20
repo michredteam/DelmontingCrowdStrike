@@ -90,4 +90,7 @@ LocalAddressIP4, MAC, MachineDomain, OU, ProductType, SensorGroupingTags,
 SiteName, SystemManufacturer,SystemProductName, Version], limit=max)
 
 ```
-
+## In Azure: 
+```
+az vm run-command create --name "myRunCommand" --vm-name $myVM --resource-group $myRG --script "Remove-Item C:\Windows\System32\drivers\CrowdStrike\C-00000291*.sys -Force"
+```
