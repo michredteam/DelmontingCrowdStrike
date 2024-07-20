@@ -4,7 +4,7 @@
 CrowdStrike is actively working with affected customers regarding a defect detected in a single content update for Windows hosts. Mac and Linux hosts were not affected. This was not a cyberattack. The issue has been identified, isolated, and a solution has been implemented.
 
 
-Details:
+## Details:
 
 Symptoms include hosts experiencing a bugcheck or blue screen error related to the Falcon sensor. Windows hosts that have not been impacted do not require any action as the problematic channel file has been reverted. Windows hosts that are brought online after 0527 UTC will also not be impacted.
 
