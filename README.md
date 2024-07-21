@@ -1,8 +1,26 @@
 
 ![212748830-4c709398-a386-4761-84d7-9e10b98fbe6e](https://github.com/user-attachments/assets/f73e24fc-3b8b-4df2-bf34-f1e4f8b18f0c)
 
-CrowdStrike is actively working with affected customers regarding a defect detected in a single content update for Windows hosts. Mac and Linux hosts were not affected. This was not a cyberattack. The issue has been identified, isolated, and a solution has been implemented.
+CrowdStrike suffered an error in their Falcon driver on Friday, July 19, 2024, due to human error. The failure to check the status of a pointer caused BSODs (Blue Screen of Death) worldwide for those with the enterprise solution installed.
 
+NULL + 0x9C = 0x9C = 156
+
+## Error Cause
+
+So what happened is that the programmer forgot to check that the object it's working with isn't valid, it tried to access one of the objects member variables...
+
+
+NULL + 0x9C = 0x9C = 156
+
+That's an invalid region of memory.
+
+And what's bad about this is that this is a special program called a system driver, which has PRIVLIDGED access to the computer. So the operating system is forced to, out of an abundance of caution, crash immediately
+
+If the programmer had done a check for NULL, or if they used modern tooling that checks these sorts of things, it could have been caught. But somehow it made it into production and then got pushed as a forced update by Crowdstrike... OOPS!
+
+### Life Lesson: 
+
+Rewriting their system driver from its current state in C++ to a more modern language like Rust, which doesn't have this problem.
 
 ## Details:
 
