@@ -3,7 +3,7 @@
 
 CrowdStrike suffered an error in their Falcon driver on Friday, July 19, 2024, due to human error. The failure to check the status of a pointer caused BSODs (Blue Screen of Death) worldwide for those with the enterprise solution installed.
 
-NULL + 0x9C = 0x9C = 156
+
 
 ## Error Cause
 
